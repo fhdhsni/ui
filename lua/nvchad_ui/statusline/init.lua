@@ -20,7 +20,7 @@ return {
       modules.LSP_Diagnostics(),
       modules.LSP_status() or "",
       modules.cwd(),
-      modules.cursor_position(),
+      -- modules.cursor_position(),
     }
   end,
 }
